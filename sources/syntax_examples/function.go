@@ -17,7 +17,7 @@ func swap(x, y string) (string, string) {
 func split(sum int) (x, y int) {
 	x = sum * 4 / 9
 	y = sum - x
-	return
+	return  // "naked" return
 }
 
 func main() {
