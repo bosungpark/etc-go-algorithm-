@@ -23,7 +23,7 @@ func main() {
 	}
 }
 
-// block
+// block that store valuable information.
 type Block struct {
 	Timestamp     int64  // when the block is created
 	Data          []byte  // actual valuable information containing in the block
@@ -66,5 +66,4 @@ func NewBlockchain() *Blockchain {
 
 // In its essence, blockchain is just a distributed database of records. 
 // But what makes it unique is that it’s not a private database, but a public one.
-
-// blocks that store valuable information.
+// blockchain is a distributed database that has no single decision maker. 
